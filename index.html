@@ -116,13 +116,17 @@
         An overview of our network is given at the bottom row. We factorize the 3D shape distribution into three key components: <b>part stylizers</b>, <b>transformation samplers</b>, and a <b>cross diffusion network</b>. For details please refer to our paper. 
       </div>
 
+      <figure>
+        <img src="videos/combined.gif" style="width:100%"></img>
+        <!-- <br> -->
+      </figure>
+      <div class="caption">
+        <b>DiffFacto</b> is able to generate shapes with semantic labels using a novel cross diffusion network that localizes the diffusion process. 
+        The diffusion process initializes from multiple shifted Gaussian distributions and gradually denoises into the desired shape.
+      </div>
       <br><br>
-
       <div id="teaser" class="container" style="width:100%; margin:0; padding:0">
-        <figure>
-          <img src="videos/combined.gif" style="width:100%"></img>
-          <!-- <br> -->
-        </figure>
+        
         <h5>Abstract</h5>
         <p align="justify">
           While the community of 3D point cloud generation has witnessed a big growth in recent years, 
